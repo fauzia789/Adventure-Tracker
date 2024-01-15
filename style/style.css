@@ -1,0 +1,273 @@
+/* font style */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 135px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.span {
+    color: #FF5400;
+}
+
+/* header style */
+.header-container {
+    margin: 0px 135px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1230px;
+    height: 500px;
+    border-radius: 16px;
+    text-align: center
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 90px;
+
+}
+
+.header-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 50px 50px 50px;
+
+}
+
+.btn {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0px 15px;
+    border: none;
+}
+
+.btn-primary {
+
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 10px 30px;
+    border: none;
+}
+
+#where {
+    padding: 10px 50px 10px 10px;
+}
+
+.when {
+    padding-left: 50px;
+}
+
+.select {
+    padding-left: 30px;
+}
+
+/* popular style */
+.popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 135px;
+}
+
+#popular-title {
+    padding-bottom: 20px;
+}
+
+.popular-description {
+    padding: 10px 80px 20px 0px;
+
+}
+
+.popular-list {
+    padding: 0px 120px 0px 30px;
+}
+
+.popular-list li {
+    padding-bottom: 20px;
+}
+
+#read-btn {
+    margin: 20px 0px;
+}
+
+/* destination section style */
+.destination-container {
+    margin: 80px 135px;
+}
+
+.img-text {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text1 {
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text2 {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text3 {
+    position: absolute;
+    top: 98px;
+    left: 84px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text4 {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text5 {
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img1 {
+    display: flex;
+    flex: 1;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.img2 {
+    margin: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.img3 {
+    margin: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.destination-content {
+    text-align: center;
+}
+
+.destination-description {
+    padding-bottom: 20px;
+} 
+/* choose section style */
+.choose{
+    margin: 80px 135px;
+}
+.choose-content{
+    text-align: center;
+}
+.choose-list{
+    display: flex;
+
+ justify-content: space-around;
+ align-items: center;
+ margin: 0px 70px;
+}
+.choose-item1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 473px;
+height: 204px;
+padding: 20px;
+}
+.choose-item2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+width: 473px;
+height: 204px;
+padding: 20px;
+}
+.choose-item3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+width: 473px;
+height: 204px;
+margin: 20px 0px 0px 370px;
+padding: 20px;
+
+}
+/* deals section style */
+.details{
+    width: 579px;
+height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
