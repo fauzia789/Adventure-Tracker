@@ -71,39 +71,40 @@ nav li a {
 
 }
 
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+
 .btn {
     border-radius: 8px;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
-    padding: 10px;
-    margin: 0px 15px;
+    padding: 0px 10px;
     border: none;
+}
+
+.btn-2 {
+    color: #FFF;
+    background: #FF5400;
+    ;
 }
 
 .btn-primary {
-
     border-radius: 8px;
-    background-color: #FF5400;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
     color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-
-    padding: 10px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
     border: none;
-}
-
-#where {
-    padding: 10px 50px 10px 10px;
-}
-
-.when {
-    padding-left: 50px;
-}
-
-.select {
-    padding-left: 30px;
 }
 
 /* popular style */
@@ -277,11 +278,13 @@ nav li a {
 /* deals section style */
 .deals {
     margin: 0px 135px;
-   
+
 }
-.Deals{
+
+.Deals {
     padding: 50px;
 }
+
 .deals1 {
     position: relative;
 }
@@ -294,7 +297,7 @@ nav li a {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 
-    padding: 20px;
+    padding: 30px;
 }
 
 #details1 {
@@ -326,8 +329,17 @@ nav li a {
 }
 
 #btn2 {
-    margin-left: 570px;
-padding:20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-left: 550px;
+
 }
 
 /* place section style */
@@ -344,7 +356,7 @@ padding:20px;
 .place-img {
     position: relative;
     width: 100%;
-   
+
 }
 
 .place-text {
@@ -459,6 +471,344 @@ footer hr {
     width: 872px;
     height: 1px;
 }
-#hide{
+
+#hide {
     display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    nav {
+        margin: 10px 10px;
+        align-items: flex-start;
+    }
+
+    .nav-title {
+        font-size: 16px;
+        font-weight: 800;
+
+    }
+
+    nav ul {
+
+        display: none;
+    }
+
+    .button {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .btn {
+
+        margin: 5px 20px 20px 15px;
+        padding: auto;
+    }
+
+    .header-title {
+        font-size: 24px;
+        font-weight: 800;
+        padding: 10px;
+
+    }
+
+    .header-container {
+        margin: 10px 5px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-description {
+        padding: 0px 20px;
+    }
+
+    .popular {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    #popular-title {
+        padding-top: 20px;
+    }
+
+    .popular-description {
+        padding: 10px;
+
+    }
+
+    .popular-list {
+        padding: 30px;
+    }
+
+    .popular-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .destination-container {
+        margin: 20px;
+    }
+
+    .img-container img {
+        width: 335px;
+        height: 176px;
+        margin: 10px 0px;
+
+    }
+
+    .img1 {
+        flex-direction: column;
+
+        margin: 0px;
+
+    }
+
+    .img2 {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .img3 {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .text-phone {
+
+        top: 40px;
+        left: 110px;
+
+    }
+
+    .text-phone2 {
+
+        top: 45px;
+        left: 70px;
+
+    }
+
+    .text-phone3 {
+
+        top: 45px;
+        left: 90px;
+
+    }
+
+    .choose {
+        margin: 20px;
+    }
+
+
+    .choose-list {
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .choice1 {
+
+        width: 303px;
+        height: 264px;
+    }
+
+    .choose-item1 {
+        margin-bottom: 20px;
+    }
+
+    .choose-item3 {
+
+        width: 303px;
+        height: 264px;
+        margin: 0px;
+
+    }
+
+    .deals {
+        margin: 20px 10px;
+
+    }
+
+    .Deals {
+        padding: 20px;
+
+    }
+
+    .deals1 img {
+        width: 335px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
+
+    .details-container {
+        width: 203px;
+        height: 290px;
+        padding: 20px 20px;
+    }
+
+    #details1 {
+        position: absolute;
+        top: 140px;
+        left: 50px;
+
+    }
+
+    #details2 {
+        position: absolute;
+        top: 140px;
+        left: 50px;
+
+    }
+
+    .description {
+        display: none;
+    }
+
+    .primary2 {
+
+        width: 174px;
+        height: 42px;
+        font-size: 10px;
+        font-weight: 800;
+
+
+    }
+
+    #btn2 {
+        display: none;
+    }
+
+    .places {
+        margin: 10px;
+    }
+
+    .place-container {
+        flex-direction: column;
+    }
+
+    .place-content {
+        padding: 20px;
+    }
+
+    .place-img img {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .place-text {
+        top: 80px;
+        left: 60px;
+        font-size: 18px;
+    }
+
+    .news {
+        margin: 10px;
+        flex-direction: column;
+
+    }
+
+    .news-container {
+        padding: 10px;
+    }
+
+    #name {
+        padding: 10px 190px 10px 10px;
+        width: 343px;
+        height: 52px;
+
+    }
+
+    #name1 {
+        width: 343px;
+        height: 52px;
+    }
+
+    .news-pic img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .transform {
+        position: absolute;
+        top: 122px;
+        left: 195px;
+        width: 184px;
+        height: 80px;
+        transform: rotate(-34.5deg) scale(0.85);
+
+    }
+
+    footer {
+
+        padding: 10px;
+
+
+    }
+
+    .footer ul {
+
+        margin-left: 30px;
+
+    }
+
+
+    footer hr {
+        width: 335px;
+
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    /* nav {
+        margin: 10px 10px;
+        align-items: flex-start;
+    }
+
+    .nav-title {
+        font-size: 16px;
+        font-weight: 800;
+
+    }
+
+    nav ul {
+
+        display: none;
+    }
+
+    .button {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .btn {
+
+        margin: 5px 20px 20px 15px;
+        padding: auto;
+    }
+
+    .header-title {
+        font-size: 24px;
+        font-weight: 800;
+        padding: 10px;
+
+    }
+
+    .header-container {
+        margin: 10px 5px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-description {
+        padding: 0px 20px;
+    } */
+
 }
