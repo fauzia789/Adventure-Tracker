@@ -1,7 +1,9 @@
 /* font style */
 * {
     font-family: 'Mulish', sans-serif;
+   
 }
+
 
 p {
     color: #5A5A5D;
@@ -523,6 +525,7 @@ footer hr {
 
 
 @media screen and (max-width:576px) {
+   
     nav {
         margin: 10px 10px;
         align-items: flex-start;
@@ -664,12 +667,14 @@ margin: 0px;
 
         width: 303px;
         height: 264px;
-        margin: 0px;
-
+    
+        margin:  0px;
+       
     }
-
+  
+    
     .deals {
-        margin: 20px 10px;
+        margin: 20px 10px 20px;
 
     }
 
